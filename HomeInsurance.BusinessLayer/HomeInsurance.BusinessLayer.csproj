@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HomeInsurance.DataLayer\HomeInsurance.DataLayer.csproj" />
+    <ProjectReference Include="..\HomeInsurance.Entities\HomeInsurance.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
